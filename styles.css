@@ -1,0 +1,23 @@
+.navbar {
+  width: 100%;
+  min-height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.9rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  
+  }
+
+.App .navbar .nav-links {
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  color: #fff;
+}
+
+.App .navbar .nav-links>a{
+  color: #fff;
+  text-decoration: none;
+}
